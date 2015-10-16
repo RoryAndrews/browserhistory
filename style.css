@@ -1,4 +1,4 @@
-h3 {
+h1, h2 {
   font-family: "Oswald";
 }
 
@@ -16,4 +16,31 @@ body {
 img {
   float: left;
   margin: 10px;
+}
+
+.left {
+  position: absolute;
+  width: 300px;
+}
+
+.right {
+  position: absolute;
+  margin-left: 650px;
+  width: 300px;
+}
+
+.mid {
+  position: absolute;
+  margin-left: 325px;
+  margin-right: 325px;
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 50px;
 }
